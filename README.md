@@ -1,8 +1,10 @@
 # SQL-Injection-Detection
 Software used:
-1.Python 3.9.5
-2.BurpSuite
-3.Accunetix Web Vulnerability Scanner
+<ol>
+<li>Python 3.9.5</li>
+<li>BurpSuite</li>
+<li>Accunetix Web Vulnerability Scanner</li>
+</ol>
 
 Python Libraries installed:
 1.urllib
