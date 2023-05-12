@@ -7,10 +7,12 @@ Software used:
 </ol>
 
 Python Libraries installed:
-1.urllib
-2.csv
-3.base64
-4.xml
+<ol>
+<li>urllib</li>
+<li>csv</li>
+<li>base64</li>
+<li>xml</li>
+</ol>
 
 We used Accunetix Web Vulnerability Scanner to generate general web crawling requests and malicious SQL injection requests on a target website. These requests as well as their responses to those requests by the target website are sent to specific port from where they are caught by BurpSuite. These captured requests and responses are saved in log files. One separate log file is made for the normal web crawling requests and another log file is made for malicious SQL injection requests.
 
