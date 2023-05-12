@@ -1,0 +1,12 @@
+method,path,body,single_q,double_q,dashes,braces,spaces,badwords,class
+GET,b'/',b'',0,0,0,0,0,0,good
+GET,b'/bank/main.jsp',b'',0,0,0,0,0,0,good
+GET,b'/index.jsp',b'',0,0,0,0,0,0,good
+GET,b'/login.jsp',b'',0,0,0,0,0,0,good
+GET,b'/logout.jsp',b'',0,0,0,0,0,0,good
+GET,b'/index.jsp?content=business.htm',b'',0,0,0,0,0,0,good
+GET,b'/index.jsp?content=inside.htm',b'',0,0,0,0,0,0,good
+GET,b'/index.jsp?content=personal_deposit.htm',b'',0,0,0,0,0,0,good
+GET,b'/index.jsp?content=personal_investments.htm',b'',0,0,0,0,0,0,good
+POST,b'/doLogin',b'uid=Admin&passw=admin&btnSubmit=Login',0,0,0,0,0,1,good
+POST,b'/doLogin',b'uid=JSmith%27+--&passw=1234&btnSubmit=Login',1,0,1,0,0,1,good
